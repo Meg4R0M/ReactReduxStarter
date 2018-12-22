@@ -12,12 +12,17 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "chartkick": "^3.0.1",
     "lodash": "^4.17.11",
     "react": "^16.7.0",
+    "react-chartkick": "^0.3.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
